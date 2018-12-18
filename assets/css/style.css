@@ -34,11 +34,10 @@ h1 {
     height: 38px;
     margin: 5px auto;
     display: none;
-    
 }
 
 .answer:hover {
-    background:#f3d65f;
+    background: #f3d65f;
     cursor: pointer;
     border: 1px solid black;
 }
@@ -64,7 +63,7 @@ h1 {
 
 #start {
     font-size: 40px;
-    width: 100px;
+    width: 140px;
     margin: 50px auto;
 }
 
@@ -73,28 +72,29 @@ h1 {
     cursor: pointer;
 }
 
+
 /* Media Queries */
 
 @media (min-width: 576px) {
-    .container {  
-      max-width: 800px;
+    .container {
+        max-width: 800px;
     }
-  }
+}
 
 @media (min-width: 800px) {
     .container {
         margin-top: 30px;
     }
 }
-  
+
 @media (min-width: 992px) {
     .container {
-      max-width: 800px;
+        max-width: 800px;
     }
 }
-  
-  @media (min-width: 1200px) {
+
+@media (min-width: 1200px) {
     .container {
-      max-width: 800px;
+        max-width: 800px;
     }
-  }
+}
